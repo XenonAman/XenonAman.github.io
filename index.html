@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- CSS -->
+    
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/const.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/typography.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js"></script>
+
+    
+    <title>Amankumar Mahato</title>
+    <link rel="icon" href="Assets/profile/icon.png" type="image/gif" sizes="16x16" alt="Amankumar Mahato">
+  </head>
+  <body>
+    <div>
+      <!-- About Me Page -->
+      <section id="about">
+        <div class="row top">
+          <img src="Assets/profile/aman.png" class="xenon" alt="Amankumar Mahato">
+        </div>
+
+        <div class="row"  style="display: flex; height: 13vh; background-color: #130039;">
+          <div class="imgdiv">
+            <img src="Assets/profile/profile.jpg" alt="Amankumar Mahato" class="img"/>
+          </div>
+        </div>
+
+        <div class="row abt">
+          <div class="para">
+            <h2 class="heading">About Me</h2>
+            <p class="about">Senior Operations Executive at Infosys LTD. as Citizen Developer in Automation and DE Support, Obsessed with Coding and Design. Experienced with and have created projects based on Web Technology, Mobile Application, Database and Adobe creative suite (Photoshop, Illustrator, After Effects). Published developer on Google play store.</br>
+              Undergraduate in Bachelor of Science (Information Technology) from Vidyalankar School of Information Technology, acted as Web, graphics Head and Overall Coordinator for the Entrepreneurship Cell of the same.</p>
+          </div>
+        </div>
+
+        <a href="#edu" style="text-decoration: none;">
+          <div class="row"  style="display: flex; height: 10vh; background-color: #130039; justify-content: center; overflow: hidden;">
+            <div class="down">
+              <i class="fas fa-angle-double-down"></i>
+            </div>
+          </div>
+        </a>
+      </section>
+
+      <!-- Education Page -->
+      <section  id="edu" class="container-fluid">
+        <div class="row edu">
+              <div class="col-12">
+                <h2 class="heading">Education Details</h2>
+                <!-- The Timeline -->
+                <ul class="timeline">
+                	<!-- Item 1 -->
+                	<li>
+                		<div class="direction-r">
+                			<div class="flag-wrapper">
+                				<span class="flag">B.Sc. I.T</span>
+                				<span class="time-wrapper"><span class="time">2015 - 2018</span></span>
+                			</div>
+                			<div class="desc">Vidyalankar School of Information Technology</div>
+                		</div>
+                	</li>
+
+                	<!-- Item 2 -->
+                	<li>
+                		<div class="direction-l">
+                			<div class="flag-wrapper">
+                				<span class="flag">HSC (Science)</span>
+                				<span class="time-wrapper"><span class="time">2013 - 2015</span></span>
+                			</div>
+                			<div class="desc">Bhavan's H.S. College</div>
+                		</div>
+                	</li>
+
+                	<!-- Item 3 -->
+                	<li>
+                		<div class="direction-r">
+                			<div class="flag-wrapper">
+                				<span class="flag">SSC (Computer Field)</span>
+                				<span class="time-wrapper"><span class="time">2013</span></span>
+                			</div>
+                			<div class="desc">Robert Money Technical High School</div>
+                		</div>
+                	</li>
+                </ul>
+              </div>
+        </div>
+      </section>
+
+      <!-- Projects Page -->
+      <section id="project" class="container-fluid project">
+        <div class="Head">
+          <h2 class="heading">Projects</h2>
+        </div>
+        <div class="content">
+          <script>
+            projectArray.forEach(elements => {
+                document.write(
+                  '<div class="projectMain">'
+                      +'<div class="pBG" style="background-image: url(Assets/'+elements.pImage+');">'
+                        +'<div class="pDisp">'
+                          + elements.disp +'<br>'
+                          +'Languages: '+ elements.language +'<br>'
+                          +'Purpose: '+ elements.purpose +
+                        '</div>'
+                      +'</div>'
+                      +'<h2 class="content">'+ elements.name +'</h2>'
+                      +'<a href="'+elements.link+'" class="fas fa-link pLink"  target="_blank"></a>'
+                  +'</div>'
+                );
+            });
+          </script>
+        </div>
+      </section>
+
+
+      <!-- Skill Page -->
+      <section id="skill" class="container-fluid skills">
+        <div class="Head">
+          <h2 class="heading">Skills</h2>
+        </div>
+        <div class="content">
+          <script>
+            skillArray.forEach(element => {
+                document.write(
+                  '<div class="skillMain">'
+                      +'<img src="Assets/skill/'+element.skillIcon+'" class="sImg">'
+                      +'<div class="skillSub">'
+                        +'<h2>'+ element.skill +'</h2>'
+                        +'<div class="progress">'
+                            +'<div class="prgComp" style="width: '+element.level+'%"></div>'
+                        +'</div>'
+                      +'</div>'
+                  +'</div>'
+                );            
+            });
+          </script>
+        </div>
+      </section>
+
+      <!-- Certificate Page -->
+      <section id="certificate" class="container-fluid certificate">
+        <div class="Head">
+          <h2 class="heading">Certificates</h2>
+        </div>
+        <div class="Head">
+          <h2 class="cCertiTitle">Cource Certificates</h2>
+        </div>
+        <div class="hScroll">
+          <script>
+            cCertiArray.forEach(element => {
+              document.write(
+                '<a href="#" class="cCerti" style="background-image: url(Assets/'+element.cCertiImg+');">'
+                  +'<div class="cCertiName">'
+                    +'<h2 class="contentD">'+element.cCertiName+'</h2>'
+                  +'</div>'
+                +'</a>'
+              );
+            });
+          </script>
+        </div>
+        <div class="Head">
+          <h2 class="cCertiTitle">Participation / Event Certificates</h2>
+        </div>
+        <div class="hScroll">
+          <script>
+            pCertiArray.forEach(element => {
+              document.write(
+                '<a href="#" class="cCerti" style="background-image: url(Assets/'+element.pCertiImg+');">'
+                  +'<div class="cCertiName">'
+                    +'<h2 class="contentD">'+element.pCertiName+'</h2>'
+                  +'</div>'
+                +'</a>'
+              );
+            });
+          </script>
+        </div>
+      </section>
+
+      <!--Connect Page -->
+      <section id="connect" class="container-fluid">
+        <div class="row connect">
+          <div class="col-12">
+            <h2 class="heading">Connect</h2>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 conMain">
+            <h2 onclick="copyEmail()"><i class="fas fa-envelope-square"></i>&nbsp &nbsp amanmahato888@gmail.com</h2>
+            <h2 onclick="copyPhone()"><i class="fas fa-phone-square"></i>&nbsp &nbsp +91 9920545896</h2>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 conMain2">
+            <a href="https://www.linkedin.com/in/amank-mahato/" target="_blank" class="fab fa-linkedin"></a>&nbsp &nbsp
+            <a href="https://github.com/XenonAman" target="_blank" class="fab fa-github-square"></a>&nbsp &nbsp
+            <a href="https://codepen.io/amanmahato/" target="_blank" class="fab fa-codepen"></a>&nbsp &nbsp
+            <a href="https://twitter.com/amank_mahato" target="_blank" class="fab fa-twitter-square"></a>&nbsp &nbsp
+            <a href="https://www.facebook.com/aman.mahato.355" target="_blank" class="fab fa-facebook"></a>&nbsp &nbsp
+            <a href="https://www.instagram.com/mahato_aman/?hl=en" target="_blank" class="fab fa-instagram"></a>    
+          </div>
+        </div>
+      </section>
+
+      <div class="col-12 copyR">
+          <h2>Copyright &#169; 2019 <span>|</span> All Rights Reserved</h2>
+      </div>
+
+
+    </div>
+
+<!-- Loader
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_loader5 -->
+
+
+    <!-- Optional JavaScript -->
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script>
+      function copyEmail(){
+        let copyE = "amanmahato888@gmail.com";
+        copyE.select();
+        copyE.setSelectionRange(0, 99999);
+        document.execCommand("copy");
+      }
+    </script>
+    
+  </body>
+</html>
