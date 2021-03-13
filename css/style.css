@@ -615,12 +615,16 @@ font-family: 'Fira Sans Condensed', sans-serif; */
   }
 
   .skillMain{
-    width: 160px;
+    width: 190px;
+    padding: 5px;
+  }
+	
+	.skillSub{
     padding: 5px;
   }
   
   .sImg{
-    width: 150px;
+    width: 40px;
   }
   
   .skillMain h2{
