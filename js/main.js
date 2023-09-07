@@ -229,7 +229,7 @@ var cCertiArray = [
         cCertiName: "Full Stack Web Development"
     },
     {
-        cCertiImg: "php_mysql.jpg",
+        cCertiImg: "PHP_MySQL.jpg",
         cCertiName: "PHP and MySQL Training"
     },
     {
