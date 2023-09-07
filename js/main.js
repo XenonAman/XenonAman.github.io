@@ -75,9 +75,24 @@ var projectArray=[
 
 var skillArray = [
     {
-        skillIcon: "c++.jpg",
-        skill : "C ++",
-        level : 55
+        skillIcon: "uipath.jpg",
+        skill : "UiPath",
+        level : 95
+    },
+    {
+        skillIcon: "vb.jpg",
+        skill : "VB.Net",
+        level : 70
+    },
+    {
+        skillIcon: "py.jpg",
+        skill : "Python",
+        level : 65
+    },
+    {
+        skillIcon: "cs.jpg",
+        skill : "C#",
+        level : 70
     },
     {
         skillIcon: "java.jpg",
@@ -90,14 +105,14 @@ var skillArray = [
         level : 70
     },
     {
-        skillIcon: "py.jpg",
-        skill : "Python",
-        level : 65
-    },
-    {
         skillIcon: "php.jpg",
         skill : "PHP",
         level : 60
+    },
+    {
+        skillIcon: "c++.jpg",
+        skill : "C ++",
+        level : 55
     },
     {
         skillIcon: "njs.jpg",
@@ -155,8 +170,8 @@ var skillArray = [
         level : 40
     },
     {
-        skillIcon: "uiPath.jpg",
-        skill : "Ui Path Automation",
+        skillIcon: "selenium.jpg",
+        skill : "Selenium",
         level : 70
     },
     {
@@ -194,53 +209,37 @@ var skillArray = [
 
 var cCertiArray = [
     {
-        cCertiImg: "dum.png",
-        cCertiName: "1st Certificate"
+        cCertiImg: "certiRPADev.jpg",
+        cCertiName: "Infosys Certified RPA Developer"
     },
     {
-        cCertiImg: "dum.png",
-        cCertiName: "2st Certificate"
+        cCertiImg: "certiRPAAsc.jpg",
+        cCertiName: "Infosys Certified UiPath Associate"
     },
     {
-        cCertiImg: "dum.png",
-        cCertiName: "3st Certificate"
+        cCertiImg: "RPAfoundation.jpg",
+        cCertiName: "RPA Developer Foundation"
     },
     {
-        cCertiImg: "dum.png",
-        cCertiName: "4st Certificate"
+        cCertiImg: "RPAorch.jpg",
+        cCertiName: "UiPath Orchestrator Training"
     },
     {
-        cCertiImg: "dum.png",
-        cCertiName: "5st Certificate"
+        cCertiImg: "fullStack.jpg",
+        cCertiName: "Full Stack Web Development"
     },
     {
-        cCertiImg: "dum.png",
-        cCertiName: "6st Certificate"
+        cCertiImg: "php_mysql.jpg",
+        cCertiName: "PHP and MySQL Training"
     },
     {
-        cCertiImg: "dum.png",
-        cCertiName: "7st Certificate"
+        cCertiImg: "agile.jpg",
+        cCertiName: "Being Agile Aware"
     },
     {
-        cCertiImg: "dum.png",
-        cCertiName: "8st Certificate"
+        cCertiImg: "uipathDev.jpg",
+        cCertiName: "Developing Automations with UiPath"
     },
-    {
-        cCertiImg: "dum.png",
-        cCertiName: "9st Certificate"
-    },
-    {
-        cCertiImg: "dum.png",
-        cCertiName: "10st Certificate"
-    },
-    {
-        cCertiImg: "dum.png",
-        cCertiName: "11st Certificate"
-    },
-    {
-        cCertiImg: "dum.png",
-        cCertiName: "12st Certificate"
-    }
 ]
 
 var pCertiArray = [

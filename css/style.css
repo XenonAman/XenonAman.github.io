@@ -360,6 +360,7 @@ font-family: 'Fira Sans Condensed', sans-serif; */
   color: #fff;
   text-align: center;
   padding: 0px 3%;
+  margin-top: 15px;
   float: left;
 }
 
@@ -372,19 +373,20 @@ font-family: 'Fira Sans Condensed', sans-serif; */
 }
 
 .cCertiName{
-  margin-top: 30px;
+  margin-top: 25%;
   padding: 7px 5px;
-  height: 30px;
+  height: 50px;
   width: 100%;
-  background-color: rgba(255, 255, 255, 0.5)
+  background-color: rgba(187, 187, 187, 0.5)
 }
 
 .cCertiName .contentD{
-  font-size: 16px;
+  display: flex;
+  font-size: 15px;
   font-weight: bold;
   text-align: center;
-  display: block;
-  white-space: nowrap;
+  justify-content: center;
+  white-space: normal;
 }
 
 
@@ -397,6 +399,7 @@ font-family: 'Fira Sans Condensed', sans-serif; */
 .conMain2{
   padding-top: 60px;
   padding-right: 10vw;
+  text-align: right;
 }
 
 .conMain h2{
