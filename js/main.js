@@ -5,7 +5,7 @@ var projectArray=[
         language: "JAVA, XML, Android",
         purpose: "Summer Intership (Live)",
         link: "https://play.google.com/store/apps/details?id=com.bdf.doc.testrreminderui&hl=en",
-        pImage: "bg.jpg"
+        pImage: "pBg.jpg"
     },
     {
         name: "EDcrypt",
@@ -13,7 +13,7 @@ var projectArray=[
         language: "JAVA, XML, Android",
         purpose: "Self Learning",
         link: "https://github.com/XenonAman/EDcrypt",
-        pImage: "bg.jpg"
+        pImage: "pBg.jpg"
     },
     {
         name: "Calculator",
@@ -21,7 +21,7 @@ var projectArray=[
         language: "JAVA, XML, Android",
         purpose: "Self Learning",
         link: "https://github.com/XenonAman/CalculatorSaud",
-        pImage: "bg.jpg"
+        pImage: "pBg.jpg"
     },
     {
         name: "E-Cell StudStart",
@@ -29,7 +29,7 @@ var projectArray=[
         language: "MERN Stack",
         purpose: "Third Year Project",
         link: "https://github.com/ashutoshtrack/Proj-SAS",
-        pImage: "bg.jpg"
+        pImage: "pBg.jpg"
     },
     {
         name: "ToDo List WebApp",
@@ -37,7 +37,7 @@ var projectArray=[
         language: "MERN Stack",
         purpose: "Intership Selection",
         link: "https://github.com/XenonAman/ToDoList_ReactWebApp",
-        pImage: "bg.jpg"
+        pImage: "pBg.jpg"
     },
     {
         name: "Bizcon 2017 & 2018 Website",
@@ -45,7 +45,7 @@ var projectArray=[
         language: "HTML, CSS, Bootstrap, JS",
         purpose: "E-Cell | VSIT Fest",
         link: "http://ecell.vsit.edu.in/bizcon/",
-        pImage: "bg.jpg"
+        pImage: "pBg.jpg"
     },
     {
         name: "Website Templates",
@@ -53,7 +53,7 @@ var projectArray=[
         language: "HTML, CSS, Bootstrap, JS",
         purpose: "Self Learning & Templates",
         link: "https://github.com/XenonAman/Websites",
-        pImage: "bg.jpg"
+        pImage: "pBg.jpg"
     },
     {
         name: "Excel Web Automation",
@@ -61,7 +61,7 @@ var projectArray=[
         language: "VBA",
         purpose: "Project Process @ Infosys ltd.",
         link: "https://github.com/XenonAman?tab=repositories",
-        pImage: "bg.jpg"
+        pImage: "pBg.jpg"
     },
     {
         name: "Other Contributions",
@@ -69,7 +69,7 @@ var projectArray=[
         language: "____________",
         purpose: "Self Learning",
         link: "https://github.com/XenonAman?tab=repositories",
-        pImage: "bg.jpg"
+        pImage: "pBg.jpg"
     },
 ]
 

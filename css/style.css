@@ -243,20 +243,21 @@ font-family: 'Fira Sans Condensed', sans-serif; */
 .pDisp{
   height: 100px;
   width: 236px;
-  background: #0984e3;
+  /* background: #0984e3; */
   opacity: 0;
 }
 
 .projectMain:hover .pDisp
 {
-  opacity:0.5;
-  text-align:justify;
-  color: #000000;
+  opacity:0.9;
+  text-align:left;
+  color: #ffffff;
   font-size:15px;
-  font-weight:700;
+  font-weight:400;
   font-family: 'Fira Sans Condensed', sans-serif;
   padding: 10px;
-  transition: 1.5s;
+  transition: 1.0s;
+  text-shadow: 2px 2px 5px #000000;
 }
 
 .projectMain .content{
